@@ -43,7 +43,7 @@ Penerapan Gamifications sendiri bertujuan untuk memberikan dampak positif dalam 
 
 Product Owner : Game Master
 
-Project Sponsor : UDINUS , Langit Senja Bumi Kayom
+Project Sponsor : UDINUS , Langit Senja Bumi Kayom, Dana
 
 Project Leader : Sahdhan Misbakhul Anam
 
