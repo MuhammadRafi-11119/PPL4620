@@ -102,3 +102,4 @@ Proyek penerapan gamification pada cafe juga menyasar pada pelajar yaitu dari mu
  ![](RackMultipart20210325-4-1hy7rwv_html_cd8be14f29d22d78.gif)
 
 ![](RackMultipart20210325-4-1hy7rwv_html_1f7834338c732756.png)
+
