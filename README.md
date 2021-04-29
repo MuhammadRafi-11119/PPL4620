@@ -61,6 +61,7 @@ Back-End Programmer : Rafli Raihan Permana
 
  ![](RackMultipart20210325-4-1hy7rwv_html_cd8be14f29d22d78.gif)
 
+
 1. Latar Belakang
 
 Perkembangan teknologi informasi yang pesat sangat mempengaruhi perkembangan game, gamifications dapat mendorong seseorang untuk melakukan sesuatu melalui elemen elemen diantaranya leaderboard, points, badges, challenge and quest yang dinilai dapat meningkatkan loyalitas pelanggan terhadap kita. Salah satu bidang yang sering menerapkan konsep gamification adalah penjualan, manfaat penerapan gamification salah satunya dapat mempererat hubungan dengan pelanggan karena dapat melibatkan pelanggan dalam interaksi yang positif.
@@ -80,6 +81,7 @@ Proyek penerapan gamification pada cafe ini menyasar pada masyarakat terutama pa
 - Pelajar
 
 Proyek penerapan gamification pada cafe juga menyasar pada pelajar yaitu dari mulai SMP, SMA hingga mahasiswa . karena dijaman sekarang sebagian pelajar juga banyak yang nongkrong di cafe untuk mengerjakan tugas ataupun bercanda dengan temannya. dengan penerapan gamification ini akan menambah daya tarik pelajar untuk datang ataupun berkunjung .
+
 
 1. Deskripsi Fungsionalitas
 
