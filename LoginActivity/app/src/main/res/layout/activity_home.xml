@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgreen"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Dashboard"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circularImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profil"
+        app:civ_border_width="6dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#8BC34A"
+        app:civ_shadow_radius="0"
+        android:layout_marginTop="100dp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/koin"
+        android:onClick="cekpoint"
+        android:layout_marginTop="210dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="260dp"
+        android:padding="15dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iconsepeda"
+            android:layout_width="130dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/otak"
+            android:clickable="true"
+            android:background="@color/white"
+            android:onClick="GamePertama"
+            android:layout_height="180dp" />
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="0dp"></View>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:src="@drawable/kopi"
+            android:clickable="true"
+            android:background="@color/white"
+            android:onClick="GameKedua"
+            android:layout_height="180dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:text="Logout"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        app:iconTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass_login"
+        app:rippleColor="#A37070" />
+</RelativeLayout>

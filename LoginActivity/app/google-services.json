@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "183026205186",
+    "project_id": "langitsenja-9cd00",
+    "storage_bucket": "langitsenja-9cd00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183026205186:android:92bc89beb636fa3d239d1b",
+        "android_client_info": {
+          "package_name": "com.example.loginactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183026205186-jmmb47n0bcl1skkte6sdvsk591dl79am.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY-7hoEUodKZC7uKrzxkXc-Qp4GtPnzAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183026205186-jmmb47n0bcl1skkte6sdvsk591dl79am.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

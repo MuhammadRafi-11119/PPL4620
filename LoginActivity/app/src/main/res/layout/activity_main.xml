@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgreen"
+    tools:context=".MainActivity">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circularImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/game"
+        app:civ_border_width="6dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#8BC34A"
+        app:civ_shadow_radius="0"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="70dp" />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/logo"/>
+
+
+    <EditText
+        android:id="@+id/email_signup"
+        android:layout_width="311dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/edit_shape"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circularImageView"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/pass_signup"
+        android:layout_width="311dp"
+        android:layout_height="41dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:background="@drawable/edit_shape"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_login" />
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="590dp"
+        android:text="Sign Up"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        app:iconTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass_login"
+        app:rippleColor="#A37070" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Login"
+        android:layout_marginTop="640dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
